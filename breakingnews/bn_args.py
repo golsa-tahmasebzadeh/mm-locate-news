@@ -3,9 +3,9 @@ import argparse
 def get_parser():
 
     parser = argparse.ArgumentParser(description='MM-Locate-News')
-    parser.add_argument('--data_path', default='/data/1/mm-locate-news/dataset')
+    parser.add_argument('--data_path', default='../dataset')
     parser.add_argument('--data_to_use', default='breaking-news', type=str, help='mm-locate-news/breaking-news')
-    parser.add_argument('--results_path', default = '/data/1/mm-locate-news/breakingnews/results')
+    parser.add_argument('--results_path', default = 'results')
     parser.add_argument('--emb_dim', default = 1024, type=int)
     parser.add_argument('--txt_dim', default=3072, type=int)
     parser.add_argument('--img_dim', default=512, type=int)
