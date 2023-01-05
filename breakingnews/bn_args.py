@@ -28,9 +28,6 @@ def get_parser():
     
     parser.add_argument('--model_name', default='reg_v_clip', type=str, help='reg_v_clip, reg_t_2bert, reg_mm_clip_loc_scene')
     parser.add_argument('--check_point',
-                        default =
-    '/data/1/mm-locate-news/experiments/snapshots/breaking-news/reg_v_clip/main.epoch_20_tim.80.69_loss_4207.908.pth.tar'
-    # '/data/1/mm-locate-news/experiments/snapshots/breaking-news/reg_t_2bert/main.epoch_68_tim.80.47_loss_2942.421.pth.tar'
-    # '/data/1/mm-locate-news/experiments/snapshots/breaking-news/reg_mm_clip_loc_scene/freezeimage.epoch_49_tim.81.02_loss_2920.927.pth.tar'
+                        default = ''
                        )
     return parser
